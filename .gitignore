@@ -2,6 +2,8 @@
 
 *.ap_
 
+# allow to update apk
+
 # Files for the Dalvik VM
 *.dex
 
