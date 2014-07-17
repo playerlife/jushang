@@ -49,8 +49,10 @@ public class BannerActivity extends ActionBarActivity {
     }
 
     private void initBanner() {
-
-        for (int i = 0; i < imglist.length; i++) {
+        
+        int size = imglist.length;
+        
+        for (int i = 0; i < size; i++) {
             RelativeLayout layout = (RelativeLayout) getLayoutInflater().inflate(R.layout.flip_item, null);
             ImageView flipBg = (ImageView) layout.findViewById(R.id.flip_bg);
             flipBg.setBackgroundResource(imglist[i]);
